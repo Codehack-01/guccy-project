@@ -1,6 +1,10 @@
 
 
 // @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Livvic:wght@300;400&display=swap');
+// @use '../custom' as custom;
+// .menu {
+//     background: linear-gradient(to right, rgba($primary,0.95), rgba($secondary, 0.95));
+// }
 
 [data-bs-theme=dark] {
     color-scheme: dark;

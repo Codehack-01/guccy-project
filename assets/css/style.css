@@ -11856,5 +11856,73 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-1 {
+  position: relative;
+  padding: 0.937rem 4.375rem 0.937rem 1.25rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+}
+.btn-1 span {
+  position: absolute;
+  background-color: #000;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-1 i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-1:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0.95));
+  color: #fff;
+}
+.btn-1 span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-2 {
+  border: none;
+}
+.btn-2:hover {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0.95));
+  color: #fff;
+  border: none;
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Bricolage Grotesque";
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 500;
+  font-family: "Bricolage Grotesque";
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  margin-top: 1.2rem;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0.95));
+}
+
+.hero-page {
+  background-color: #000;
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

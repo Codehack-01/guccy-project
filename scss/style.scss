@@ -1,1 +1,17 @@
 @use'custom';
+
+//IMPORT THE COMPONENTS
+@use 'components/animation';
+@use 'components/button';
+@use 'components/mixins';
+@use 'components/typography';
+
+
+//IMPORT THE SECTIONS
+@use 'sections/navbar';
+@use 'sections/hero-page';
+@use 'sections/collections';
+@use 'sections/shop';
+@use 'sections/designer';
+@use 'sections/partnership';
+@use 'sections/footer';
