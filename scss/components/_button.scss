@@ -38,8 +38,9 @@
 .btn-2 {
     border: none;
     &:hover {
-        @include gradient;
+        @include btn-hover;
         color: $white;
         border: none;
     }
+
 }

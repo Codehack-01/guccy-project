@@ -11891,7 +11891,7 @@ textarea.form-control-lg {
   border: none;
 }
 .btn-2:hover {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0.95));
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   color: #fff;
   border: none;
 }
@@ -11902,9 +11902,14 @@ textarea.form-control-lg {
   font-family: "Bricolage Grotesque";
 }
 .display-2--intro {
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 7s infinite;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Bricolage Grotesque";
+  letter-spacing: 2px;
 }
 .display-2--description {
   font-size: 1rem;
