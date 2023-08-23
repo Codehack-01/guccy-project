@@ -11907,9 +11907,8 @@ textarea.form-control-lg {
   -webkit-text-fill-color: transparent;
   animation: fadeIn 7s infinite;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Bricolage Grotesque";
-  letter-spacing: 2px;
 }
 .display-2--description {
   font-size: 1rem;
