@@ -1,5 +1,6 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
+@use '../components/animation' as *;
 
 .btn-1 {
     position: relative;
@@ -37,10 +38,28 @@
 
 .btn-2 {
     border: none;
+    // animation: heartbeat 2s forwards;
+    // animation: heartbeat 10s ease-in-out infinite both;
     &:hover {
         @include btn-hover;
         color: $white;
         border: none;
+        // animation: bounce 2s forwards;
     }
 
 }
+
+.btn-2b {
+    border: none;
+    // animation: heartbeat 2s forwards;
+    animation: heartbeat 10s ease-in-out infinite both;
+    &:hover {
+        @include btn-hover;
+        color: $white;
+        border: none;
+        // animation: bounce 2s forwards;
+    }
+
+}
+
+

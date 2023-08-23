@@ -11856,6 +11856,63 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  75% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .btn-1 {
   position: relative;
   padding: 0.937rem 4.375rem 0.937rem 1.25rem;
@@ -11896,6 +11953,16 @@ textarea.form-control-lg {
   border: none;
 }
 
+.btn-2b {
+  border: none;
+  animation: heartbeat 10s ease-in-out infinite both;
+}
+.btn-2b:hover {
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  color: #fff;
+  border: none;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -11906,12 +11973,14 @@ textarea.form-control-lg {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: fadeIn 7s infinite;
+  animation: bounce 2s forwards;
   display: inline-block;
   font-weight: 500;
   font-family: "Bricolage Grotesque";
 }
 .display-2--description {
   font-size: 1rem;
+  color: #ccc;
   display: block;
   margin-top: 1.2rem;
   text-transform: none;
