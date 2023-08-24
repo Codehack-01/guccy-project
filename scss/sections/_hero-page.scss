@@ -1,7 +1,7 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 .hero-page {
-    background-color: $primary;
+    background: $primary;
     // @include gradient;
     padding: 10rem 0 0 0 ;
     width: 100%;
