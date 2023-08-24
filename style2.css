@@ -114,3 +114,33 @@
 
     }
   }
+
+  @media all and (min-width: 992px) {
+    .hero-page{
+      /* padding: 10rem 0 0 0 ; */
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .c-item {
+    height: 780px;
+  }
+
+  .c-img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media all and (max-width: 769px) {
+    .hero-page{
+      padding: 10rem 0 0 0 ;
+      /* width: 100%;
+      height: 100%; */
+    }
+    .c-item {
+      height: 350px;
+    }
+  }
+  
