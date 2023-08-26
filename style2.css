@@ -152,7 +152,13 @@
 
   .carousel-css {
     margin-top: 1.2rem;
+
+    /* border: red 2px solid;
+    border-radius: 20px; */
     
+  }
+  .c-img {
+    border-radius: 10px;
   }
   }
   
