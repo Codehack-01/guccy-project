@@ -1,10 +1,4 @@
 @charset "UTF-8";
-[data-bs-theme=dark] {
-  color-scheme: dark;
-  --bs-body-color: #000;
-  --bs-body-bg: #000;
-}
-
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
