@@ -1,14 +1,14 @@
-@use'custom';
+@use 'custom';
 
 //IMPORT THE COMPONENTS
 @use 'components/animation';
 @use 'components/button';
 @use 'components/mixins';
 @use 'components/typography';
-@use 'components/carousel';
+// @use 'components/carousel';
 
 
-//IMPORT THE SECTIONS
+// //IMPORT THE SECTIONS
 @use 'sections/navbar';
 @use 'sections/hero-page';
 @use 'sections/collections';
