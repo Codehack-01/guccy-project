@@ -20,6 +20,13 @@
 
     }
 
+    // &--header {
+    //     @include gradient2;
+    //     font-size: 1rem;
+    //     text-align: center;
+    //     justify-content: center;
+    // }
+
     &--description {
         font-size: 1rem;
         color: #ccc;
@@ -28,4 +35,9 @@
         text-transform: none;
         font-family: 'Poppins', sans-serif
     }
+}
+
+.header {
+    @include gradient2;
+    font-family: 'Bricolage Grotesque';
 }

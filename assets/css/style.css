@@ -11981,6 +11981,14 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 
+.header {
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 7s infinite;
+  font-family: "Bricolage Grotesque";
+}
+
 .menu {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0.95));
 }
