@@ -169,3 +169,7 @@
     background-size: cover;
     width: 100%; */
   }
+
+  .c-itemlg {
+    height: 600px;
+  }
