@@ -162,3 +162,10 @@
   }
   }
   
+  .c-item2 {
+    height: 300px; 
+    
+    /* object-fit: cover;
+    background-size: cover;
+    width: 100%; */
+  }
