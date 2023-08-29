@@ -161,22 +161,32 @@
     border-radius: 10px;
   }
   .c-item2 {
-    height: 200px;
+    height: 100px;
   }
 
   .c-itemlg {
-    height: 400px;
+    height: 200px;
   }
   }
   
-  .c-item2 {
+  /* .c-item2 {
     height: 300px; 
     
     /* object-fit: cover;
     background-size: cover;
-    width: 100%; */
+    width: 100%; 
   }
 
   .c-itemlg {
     height: 600px;
+  } */
+
+  @media all and (min-width: 770px) {
+    .c-item2 {
+      height: 300px;
+    }
+
+    .c-itemlg {
+      height: 600px;
+    }
   }
