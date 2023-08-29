@@ -205,7 +205,7 @@
     bottom: 0;
     right: 0;
     background: #000;
-    opacity: 0.7;
+    opacity: 0.3;
   }
 
   .c-itemlg::before {
@@ -217,5 +217,5 @@
     bottom: 0;
     right: 0;
     background: #000;
-    opacity: 0.5;
+    opacity: 0.3;
   }
