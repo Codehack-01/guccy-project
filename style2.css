@@ -160,6 +160,13 @@
   .c-img {
     border-radius: 10px;
   }
+  .c-item2 {
+    height: 200px;
+  }
+
+  .c-itemlg {
+    height: 400px;
+  }
   }
   
   .c-item2 {
