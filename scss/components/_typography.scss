@@ -33,13 +33,19 @@
         display: block;
         margin-top: 1.2rem;
         text-transform: none;
-        font-family: 'Poppins', sans-serif
+        font-family: 'Poppins', sans-serif;
     }
 }
 
 .header {
     @include gradient2;
     font-family: 'Bricolage Grotesque';
+}
+
+.header-p {
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ccc;
 }
 
 //HEADING LINE

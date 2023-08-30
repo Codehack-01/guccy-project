@@ -11989,6 +11989,12 @@ textarea.form-control-lg {
   font-family: "Bricolage Grotesque";
 }
 
+.header-p {
+  padding-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #ccc;
+}
+
 .heading-line::before {
   content: " ";
   width: 10rem;

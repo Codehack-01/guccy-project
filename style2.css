@@ -192,9 +192,9 @@
   }
 
 
-  .header-p {
+  /* .header-p {
     padding-top: 1rem;
-  }
+  } */
 
   .c-item2::before {
     content: " ";
