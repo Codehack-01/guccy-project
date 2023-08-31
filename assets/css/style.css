@@ -12026,4 +12026,17 @@ textarea.form-control-lg {
   background: #000;
 }
 
+.drop-icon {
+  color: #fff;
+  border: none;
+}
+.drop-icon:hover {
+  color: #4169E1;
+}
+
+.drop-btn {
+  border: none;
+  outline: none;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+@use '../custom' as *;
+//Dropdowm Icon
+.drop-icon {
+    color: $secondary;
+    border: none;
+
+    &:hover {
+        color: #4169E1;
+    }
+
+}
+
+.drop-btn {
+    border: none;
+    outline: none;
+    
+
+}
