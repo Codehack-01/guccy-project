@@ -219,3 +219,23 @@
     background: #000;
     opacity: 0.5;
   }
+
+@media screen and (min-width:576px) {
+  .carouselinner-shop {
+    display: flex;
+  }
+  .carouselitem-shop{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
+  }
+}
+
+.carouselinner-shop {
+  padding: 1rem;
+}
+
+.card {
+  margin: 0.5rem;
+}
+
