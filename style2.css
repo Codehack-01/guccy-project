@@ -154,7 +154,7 @@
     }
     .c-item {
       height: 350px;
-      border-radius: 50px;
+      border-radius: 15px; 
       
     }
 
@@ -167,7 +167,7 @@
   }
   .c-img {
     border-radius: 10px;
-  }
+  } 
   .c-item2 {
     height: 200px;
   }
