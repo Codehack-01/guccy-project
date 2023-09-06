@@ -270,7 +270,8 @@
 .carousel-control-prev-shop, .carousel-control-next-shop{
   width: 6vh;
   height: 6vh;
-  background-color: #e1e1e1;
+  /* background-color: #e1e1e1; */
+  background-color: #000;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -278,31 +279,21 @@
 }
 
 .carousel-control-prev-shop:hover, .carousel-control-next-shop:hover{
-  opacity: 1;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 }
 
 
-.img1{
-  position: relative;
-}
-.img1 img{
-  padding: 40px 40px 40px 40px;
-  background: rgba(29, 161, 242, 0.1);
-  border-radius: 5px;
-  
-}
 
 .img-wrapper i{
   color: #000;
   font-size: 20px;
   position: absolute;
-  /* top: 0; */
-  /*left: 0; */
-  /* bottom: 0; */
+  
   right: 0;
   z-index: 1;
-  /* padding-left: 1em; */
-  /* justify-content: end; */
+  
   margin-top: 1.5rem;
   margin-right: 1.5rem;
   padding: 10px;
