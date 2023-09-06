@@ -308,3 +308,8 @@
   color: #fff;
   cursor: pointer;
 }
+
+.carousel-shop button i{
+  font-size: 1.2rem;
+  /* font-weight: bolder; */
+}
