@@ -230,7 +230,7 @@
 
 .img-wrapper {
   max-width: 100%;
-  height: 17em;
+  height: 65vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -257,12 +257,25 @@
 }
 
 .carouselinner-shop {
-  padding: 1rem;
+  padding: 1em;
 }
 
 .card {
   margin: 0.5rem;
 }
 
+.carousel-control-prev-shop, .carousel-control-next-shop{
+  width: 6vh;
+  height: 6vh;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: .5;
+}
+
+.carousel-control-prev-shop:hover, .carousel-control-next-shop:hover{
+  opacity: 1;
+}
 
 
