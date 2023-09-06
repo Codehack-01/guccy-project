@@ -313,3 +313,51 @@
   font-size: 1.2rem;
   /* font-weight: bolder; */
 }
+
+.product_details{
+  margin-top: 10px;
+}
+
+.product_details .prod_name{
+  font-weight: 500;
+}
+
+/*.product_details .prod_price{
+  font-weight: 500;
+}*/
+.product_details .prod_price1{
+  font-weight: 500;
+  margin-left: 70px;
+  font-size: 15px;
+}
+
+.product_details .p{
+  font-size: 14px;
+}
+
+.prod_review i{
+  font-size: 11px;
+  color: green;
+
+}
+
+.prod_review span{
+  font-size: 12px;
+}
+.cop{
+  margin-top: 15px;
+}
+.cop span{
+  padding: 7px;
+
+  border: #ccc 1px solid;
+  border-radius: 20px;
+  
+}
+
+.cop span:hover{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
