@@ -368,12 +368,21 @@
   padding-right: 1rem;
 
 }
+.prod_review .cart{
+  right: 0;
+  /* bottom: 0; */
+  position: absolute;
+  display: inline;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+  color: #000;
+}
 
 .product_details .p{
   font-size: 1rem;
 }
 
-.prod_review i{
+.prod_review {
   font-size: 0.8rem;
   color: green;
 
