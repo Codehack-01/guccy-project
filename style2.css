@@ -377,6 +377,16 @@
   font-size: 1.2rem;
   color: #000;
 }
+.prod_review .cart:hover{
+  color: #4169E1;
+}
+
+.explore {
+  padding-top: 0.5rem;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+} 
 
 .product_details .p{
   font-size: 1rem;
@@ -385,6 +395,7 @@
 .prod_review {
   font-size: 0.8rem;
   color: green;
+
 
 }
 

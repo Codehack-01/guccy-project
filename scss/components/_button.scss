@@ -62,4 +62,21 @@
 
 }
 
+.btn-shop {
+    border: $black 1px solid;
+    color: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    
+    // animation: heartbeat 2s forwards;
+    
+    &:hover {
+        @include btn-hover;
+        color: $white;
+    
+        // animation: bounce 2s forwards;
+    }
+
+}
+
 

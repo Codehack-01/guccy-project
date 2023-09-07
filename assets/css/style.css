@@ -11957,6 +11957,17 @@ textarea.form-control-lg {
   border: none;
 }
 
+.btn-shop {
+  border: #000 1px solid;
+  color: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+.btn-shop:hover {
+  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  color: #fff;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;

@@ -26,3 +26,7 @@
 @mixin btn-hover {
     background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 }
+
+@mixin btn-hover2 {
+    border: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
