@@ -11964,8 +11964,9 @@ textarea.form-control-lg {
   padding: 0.5rem 2rem 0.5rem 2rem;
 }
 .btn-shop:hover {
-  background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  background: #000;
   color: #fff;
+  border: none;
 }
 
 .display-2 {
@@ -12004,6 +12005,11 @@ textarea.form-control-lg {
   padding-top: 1rem;
   font-family: "Poppins", sans-serif;
   color: #ccc;
+}
+
+.poppinss {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
 }
 
 .heading-line::before {

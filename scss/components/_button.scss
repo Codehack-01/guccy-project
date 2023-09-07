@@ -71,8 +71,9 @@
     // animation: heartbeat 2s forwards;
     
     &:hover {
-        @include btn-hover;
+        background: $black;
         color: $white;
+        border: none;
     
         // animation: bounce 2s forwards;
     }
