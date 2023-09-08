@@ -3,15 +3,17 @@
     
     &_logo-box {
         max-width: 100%;
-        height: 5rem;
+        height: 3rem;
         margin-bottom: 2rem;
         padding: 0.5rem;
         text-align: center;
         position: relative;
+        background-color: #fff;
+        // color: black;
     }
     
     img {
-        // height: 100%;
-        width: 120px;
+        height: 100%;
+        // width: 100px;
     }
 }
