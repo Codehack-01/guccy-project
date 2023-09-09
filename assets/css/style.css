@@ -12088,6 +12088,9 @@ textarea.form-control-lg {
     font-size: 1.6rem;
   }
 }
+.footer-sm i:hover {
+  color: #AE67FA;
+}
 .footer-sm .info {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
