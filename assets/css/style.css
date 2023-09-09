@@ -12073,7 +12073,7 @@ textarea.form-control-lg {
   text-align: center;
   position: relative;
   background-color: #fff;
-  box-shadow: -0.5rem 1rem 1.5rem -0.3rem hsla(244, 99%, 48%, 0.25);
+  box-shadow: 2.5px 2.5px 2.5px blue;
 }
 .companies img {
   height: 100%;
