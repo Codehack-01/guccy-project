@@ -12079,4 +12079,23 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.footer-sm i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm i {
+    font-size: 1.6rem;
+  }
+}
+.footer-sm .info {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+@media (min-width: 576px) {
+  .footer-sm .info {
+    font-size: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

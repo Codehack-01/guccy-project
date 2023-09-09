@@ -1,0 +1,26 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer-sm {
+    // a {
+    //     color: aqua;
+    // }
+
+    i {
+        font-size: 1rem;
+        margin-left: 1rem;
+
+
+        @include media-breakpoint-up(sm) {
+            font-size: 1.6rem;
+        }
+    }
+
+    .info {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        @include media-breakpoint-up(sm) {
+            font-size: 1.5rem;
+        }
+    }
+}
