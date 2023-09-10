@@ -42,10 +42,12 @@
     li {
         margin-bottom: 0.5rem;
         text-decoration: none;
+        // color: #ccc;
 
         a {
-            color: $white;
+            color: #ccc;
             text-decoration: none;
+            font-family: 'Poppins', sans-serif;
 
             &:hover {
                 color: #AE67FA;
@@ -66,7 +68,25 @@
 
     i {
         color: $white;
-        font-size: 1rem;
+        font-size: 1.2rem;
         @include absoluteCenter;
+    }
+    &:hover {
+        background: #fff;
+
+        i {
+            color: #000;
+        }
+    }
+}
+
+.footer-bottom_copyright {
+    a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+            color: #AE67FA;
+        }
     }
 }

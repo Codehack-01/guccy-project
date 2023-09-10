@@ -12037,6 +12037,11 @@ textarea.form-control-lg {
   background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 }
 
+.footer-text {
+  font-family: "Poppins", sans-serif;
+  color: #ccc;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0.95));
 }
@@ -12115,8 +12120,9 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .company-list li a {
-  color: #fff;
+  color: #ccc;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 .company-list li a:hover {
   color: #AE67FA;
@@ -12133,11 +12139,25 @@ textarea.form-control-lg {
 }
 .back-to-top i {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.back-to-top:hover {
+  background: #fff;
+}
+.back-to-top:hover i {
+  color: #000;
+}
+
+.footer-bottom_copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-bottom_copyright a:hover {
+  color: #AE67FA;
 }
 
 /*# sourceMappingURL=style.css.map */
