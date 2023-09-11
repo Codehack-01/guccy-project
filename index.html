@@ -124,7 +124,12 @@
                 budget-friendly finds... Standout through the Work of Art.
               </span>
             </h1>
-            <button type="button" class="btn btn-secondary btn-2b fs-4">
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#Signup"
+              type="button"
+              class="btn btn-secondary btn-2b fs-4"
+            >
               Explore
               <span>
                 <!-- <i class="fas fa-arrow-right"></i> -->
@@ -486,7 +491,8 @@
         <h2 class="text-center header">Shop</h2>
         <div class="heading-line"></div>
         <p class="text-center header-p">
-          Over 10,000+ luxury wears and accessories of different sizes and categories from different brands accross the globe.
+          Over 10,000+ luxury wears and accessories of different sizes and
+          categories from different brands accross the globe.
         </p>
         <div class="dropdown d-flex justify-content-end">
           <a
@@ -833,7 +839,8 @@
         <h2 class="text-center header">Partnerships</h2>
         <div class="heading-line"></div>
         <p class="text-center header-p">
-          partners with more than 10 biggest brands accross the globe, to provide you with the most luxurious/high fashion wears and accessories
+          partners with more than 10 biggest brands accross the globe, to
+          provide you with the most luxurious/high fashion wears and accessories
         </p>
         <div class="row">
           <div class="col-md-4 col-lg-2">
@@ -909,8 +916,8 @@
 
               <hr class="footer-line mb-4" style="width: 60px; height: 2px" />
               <p class="lh-lg footer-text">
-                Explore your world of multiple choices and choose the best clothes to make you standout.
-                A product of Guccy Inc.
+                Explore your world of multiple choices and choose the best
+                clothes to make you standout. A product of Guccy Inc.
               </p>
             </div>
             <div class="col-12 col-sm-6 col-lg-2 mb-4">
@@ -932,9 +939,17 @@
                 style="width: 60px; height: 2px"
               />
               <ul class="list-inline company-list">
-                <li><a href="#"><i class="bi bi-Facebook"></i> @Guccy.Inc</a></li>
-                <li><a href="#"><i class="bi bi-Instagram"></i> @guccyfashion</a></li>
-                <li><a href="#"><i class="bi bi-envelope"></i> @guccyfashion@gmail.com</a></li>
+                <li>
+                  <a href="#"><i class="bi bi-Facebook"></i> @Guccy.Inc</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-Instagram"></i> @guccyfashion</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="bi bi-envelope"></i> @guccyfashion@gmail.com</a
+                  >
+                </li>
               </ul>
             </div>
             <div class="col-12 col-sm-6 col-lg-2">
@@ -944,8 +959,17 @@
                 style="width: 60px; height: 2px"
               />
               <ul class="list-inline company-list">
-                <li><a href="#">Location : 5 Hacker Way in Menlo Park, CA 94025 silicon Valley (vivid imagination).</a></li>
-                <li><a href="#">Customer service and feedback : @guccyfashion@gmail.com</a></li>
+                <li>
+                  <a href="#"
+                    >Location : 5 Hacker Way in Menlo Park, CA 94025 silicon
+                    Valley (vivid imagination).</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    >Customer service and feedback : @guccyfashion@gmail.com</a
+                  >
+                </li>
                 <!-- <li><a href="#">LoremIpsum</a></li> -->
               </ul>
             </div>
@@ -976,6 +1000,85 @@
     <a href="#" class="shadow rounded-circle back-to-top">
       <i class="bi bi-arrow-up"></i>
     </a>
+
+    <!-- FORM -->
+
+    <div
+      class="modal fade"
+      id="Signup"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Enrollment Form</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill out this form and we wil get back to you</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name :
+                </label>
+                <input
+                  type="text"
+                  placeholder="Enter First Name"
+                  class="form-control"
+                  id="first_name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Last-name" class="col-form-label">
+                  Last Name :
+                </label>
+                <input
+                  type="text"
+                  placeholder="Enter Last Name"
+                  class="form-control"
+                  id="Last_name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="col-form-label"> Email : </label>
+                <input
+                  type="text"
+                  placeholder="@example.com"
+                  class="form-control"
+                  id="Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label"> Phone : </label>
+                <input
+                  type="text"
+                  placeholder="+234"
+                  class="form-control"
+                  id="phone"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- <script src="index.js"></script> -->
     <script
