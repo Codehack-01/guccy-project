@@ -11984,6 +11984,11 @@ textarea.form-control-lg {
   font-weight: 500;
   font-family: "Bricolage Grotesque";
 }
+@media (max-width: 767.98px) {
+  .display-2--intro {
+    font-size: 3rem;
+  }
+}
 .display-2--description {
   font-size: 1rem;
   color: #ccc;
