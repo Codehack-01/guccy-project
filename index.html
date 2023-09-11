@@ -1018,7 +1018,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="enrollLabel">Enrollment Form</h5>
+            <h5 class="modal-title fw-bold" id="enrollLabel">Sign Up to Guccy</h5>
             <button
               type="button"
               class="btn-close"
@@ -1027,22 +1027,22 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p class="lead">Fill out this form and we wil get back to you</p>
+            <!-- <p class="lead">Fill out this form and we wil get back to you</p> -->
             <form>
-              <div class="mb-3">
-                <label for="first-name" class="col-form-label">
-                  First Name :
+              <div class="mb-2 fw-bold">
+                <label for="first-name " class="col-form-label">
+                  Name
                 </label>
                 <input
                   type="text"
-                  placeholder="Enter First Name"
+                  placeholder="Enter First/Last Name"
                   class="form-control"
                   id="first_name"
                 />
               </div>
-              <div class="mb-3">
+              <!-- <div class="mb-2 fw-bold">
                 <label for="Last-name" class="col-form-label">
-                  Last Name :
+                  Last Name
                 </label>
                 <input
                   type="text"
@@ -1050,9 +1050,9 @@
                   class="form-control"
                   id="Last_name"
                 />
-              </div>
-              <div class="mb-3">
-                <label for="Email" class="col-form-label"> Email : </label>
+              </div> -->
+              <div class="mb-2 fw-bold">
+                <label for="Email" class="col-form-label"> Email </label>
                 <input
                   type="text"
                   placeholder="@example.com"
@@ -1060,26 +1060,35 @@
                   id="Email"
                 />
               </div>
-              <div class="mb-3">
-                <label for="phone" class="col-form-label"> Phone : </label>
+              <div class="mb-2 fw-bold">
+                <label for="phone" class="col-form-label">Password</label>
                 <input
                   type="text"
-                  placeholder="+234"
+                  placeholder="6+ characters"
                   class="form-control"
                   id="phone"
                 />
+              </div>
+              <!-- <div class="mb-2 form-check">
+                
+              </div> -->
+              <div class="form-check ">
+                <input class="form-check-input" type="checkbox" value="" id="Submit">
+                <label class="form-check-label footer-check" for="flexCheckDefault">
+                  I agree with Guccy's <a href="#">Terms of Service, </a><a href="#">Privacy Policy</a> and default <a href="#">Notification Settings.</a>
+                </label>
               </div>
             </form>
           </div>
           <div class="modal-footer">
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-primary"
               data-bs-dismiss="modal"
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-success">Submit</button>
           </div>
         </div>
       </div>
