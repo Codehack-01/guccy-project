@@ -452,3 +452,10 @@
 /* #partnership {
   padding-bottom: 5rem;
 } */
+
+.navbar .nav-item a:hover{
+  color: #fff;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: #fff; /* Active link color */
+}

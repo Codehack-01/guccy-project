@@ -39,6 +39,7 @@
           class="navbar-toggler collapsed"
           type="button"
           data-bs-toggle="offcanvas"
+          data-target="#navbarResponsive"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
@@ -69,7 +70,7 @@
               <span class="toggler-icon bottom-bar"></span>
             </button>
           </div>
-          <div class="offcanvas-body bg-primary">
+          <div class="offcanvas-body bg-primary" id="navbarResponsive">
             <ul class="navbar-nav justify-content-lg-end fs-6 flex-grow-1 pe-3">
               <li class="nav-item mx-2">
                 <a class="nav-link" aria-current="page" href="#Home">Home</a>
@@ -1018,7 +1019,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title fw-bold" id="enrollLabel">Sign Up to Guccy</h5>
+            <h5 class="modal-title fw-bold" id="enrollLabel">
+              Sign Up to Guccy
+            </h5>
             <button
               type="button"
               class="btn-close"
@@ -1030,9 +1033,7 @@
             <!-- <p class="lead">Fill out this form and we wil get back to you</p> -->
             <form>
               <div class="mb-2 fw-bold">
-                <label for="first-name " class="col-form-label">
-                  Name
-                </label>
+                <label for="first-name " class="col-form-label"> Name </label>
                 <input
                   type="text"
                   placeholder="Enter First/Last Name"
@@ -1073,14 +1074,26 @@
                 
               </div> -->
               <div class="form-check mb-4">
-                <input class="form-check-input" type="checkbox" value="" id="Submit">
-                <label class="form-check-label footer-check" for="flexCheckDefault">
-                  I agree with Guccy's <a href="#">Terms of Service, </a><a href="#">Privacy Policy</a> and default <a href="#">Notification Settings.</a>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Submit"
+                />
+                <label
+                  class="form-check-label footer-check"
+                  for="flexCheckDefault"
+                >
+                  I agree with Guccy's <a href="#">Terms of Service, </a
+                  ><a href="#">Privacy Policy</a> and default
+                  <a href="#">Notification Settings.</a>
                 </label>
               </div>
 
               <div class="create-account text-center">
-                <button type="button" class="btn btn-primary">Create Account</button>
+                <button type="button" class="btn btn-primary">
+                  Create Account
+                </button>
               </div>
               <div class="sign-in text-center mt-2">
                 <span>Already have an account? <a href="#">Sign In</a></span>
@@ -1117,6 +1130,6 @@
       integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="index.js"></script> -->
+    <script src="index.js"></script>
   </body>
 </html>

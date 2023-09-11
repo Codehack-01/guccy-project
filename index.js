@@ -1,3 +1,8 @@
+$(document).ready(function(){
+    $('body').scrollspy({ target: '#navbarResponsive', offset: 50 });
+  });
+ 
+ 
  const multipleItemCarousel = document.querySelector
  ('#carouselExample');
 
