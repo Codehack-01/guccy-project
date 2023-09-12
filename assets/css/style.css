@@ -12043,6 +12043,7 @@ textarea.form-control-lg {
 }
 
 .footer-text {
+  font-size: 0.9rem;
   font-family: "Poppins", sans-serif;
   color: #ccc;
 }
@@ -12128,6 +12129,7 @@ textarea.form-control-lg {
   color: #ccc;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
 }
 .company-list li a:hover {
   color: #AE67FA;
